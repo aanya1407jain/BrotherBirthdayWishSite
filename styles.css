@@ -1,0 +1,82 @@
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    text-align:center;
+    font-family:'Happy Monkey',cursive;
+    background:linear-gradient(#ffa2e3, #383ba4);
+    color:#ffffff;
+}
+h1,h2,h3,h4,p{
+    text-shadow:0 0 1px black;
+}
+#bff-img{
+    width:150px;
+    border-radius:50%;
+    border: 6px solid #6e1168;
+    margin-bottom:10px;
+}
+#bday-img{
+    background: #efb0b0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+#bday-age{
+    background: #efb0b0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+#bday-date{
+    background: #efb0b0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+#header{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.gift-section{
+    margin-top: 50px;
+}
+.gift-tittle{
+    margin-bottom: 10px;
+}
+.gift-hint{
+    margin-top: 0;
+}
+#gift-img-cheers{
+    height:200px;
+}
+.gift-img{
+    margin: 20px auto;
+    max-width: 550px;
+    height: 600px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.png");
+    background-size: cover;
+}
+#gift-img-mamakishadi:hover{
+  background-image: url("images/mamakishadi.jpeg");
+}
+#gift-img-naughtyface:hover{
+  background-image: url("images/naughtyface.jpeg");
+}
+#gift-img-hairstyle:hover{
+  background-image: url("images/hairstyle.jpeg");
+}
+#gift-img-ingoggles:hover{
+  background-image: url("images/ingoggles.jpeg");
+}
+#gift-img-pune:hover{
+  background-image: url("images/pune.jpeg");
+}
+#gift-img-partyphoto:hover{
+  background-image: url("images/partyphoto.jpeg");
+}
